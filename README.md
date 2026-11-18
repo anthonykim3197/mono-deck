@@ -6,6 +6,8 @@ Windows control studio for A73T 15-key / 3-knob macro keyboards: PC pages, onboa
 
 ## 소스에서 시작하기
 
+다른 PC나 새 Codex에서 이어서 개발한다면 **[개발 인수인계서](docs/HANDOFF.md)**와 **[Codex 작업 규칙](AGENTS.md)**을 먼저 읽으세요. 실제 확인된 동작과 남은 제한은 **[검증 기록](docs/verification.md)**에 있습니다.
+
 Windows x64, Node.js 22.12 이상과 Windows 기본 .NET Framework 4.x C# 컴파일러가 필요합니다.
 
 ```powershell
