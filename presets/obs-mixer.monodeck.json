@@ -1,0 +1,698 @@
+{
+  "format": "mono-deck-preset-pack",
+  "version": 1,
+  "name": "OBS · 교회 오디오 믹서",
+  "description": "키 1~15로 연결한 오디오를 선택합니다. 큰 노브: 선택 소스 ±0.5dB / 클릭 음소거. 왼쪽 작은 노브: 연결된 소스 이동 / 클릭 현재 상태 표시. 오른쪽 위 노브: 공통 페이지 이동. 프리셋 라이브러리 → OBS 연결에서 HDMI·믹서 USB·송출 PC 등의 실제 소스를 키에 연결하세요. 선택만으로 볼륨을 바꾸지 않습니다.",
+  "knobOrder": [
+    1,
+    2,
+    3
+  ],
+  "profiles": [
+    {
+      "id": "obs-mixer",
+      "presetId": "monodeck.work.obs-mixer.v1",
+      "name": "OBS · 교회 오디오 믹서",
+      "description": "키 1~15로 연결한 오디오를 선택합니다. 큰 노브: 선택 소스 ±0.5dB / 클릭 음소거. 왼쪽 작은 노브: 연결된 소스 이동 / 클릭 현재 상태 표시. 오른쪽 위 노브: 공통 페이지 이동. 프리셋 라이브러리 → OBS 연결에서 HDMI·믹서 USB·송출 PC 등의 실제 소스를 키에 연결하세요. 선택만으로 볼륨을 바꾸지 않습니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "obs",
+          "label": "오디오 01 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 0,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key2": {
+          "type": "obs",
+          "label": "오디오 02 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 1,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key3": {
+          "type": "obs",
+          "label": "오디오 03 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 2,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key4": {
+          "type": "obs",
+          "label": "오디오 04 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 3,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key5": {
+          "type": "obs",
+          "label": "오디오 05 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 4,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key6": {
+          "type": "obs",
+          "label": "오디오 06 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 5,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key7": {
+          "type": "obs",
+          "label": "오디오 07 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 6,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key8": {
+          "type": "obs",
+          "label": "오디오 08 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 7,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key9": {
+          "type": "obs",
+          "label": "오디오 09 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 8,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key10": {
+          "type": "obs",
+          "label": "오디오 10 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 9,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key11": {
+          "type": "obs",
+          "label": "오디오 11 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 10,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key12": {
+          "type": "obs",
+          "label": "오디오 12 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 11,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key13": {
+          "type": "obs",
+          "label": "오디오 13 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 12,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key14": {
+          "type": "obs",
+          "label": "오디오 14 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 13,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key15": {
+          "type": "obs",
+          "label": "오디오 15 선택",
+          "obsOperation": "sourceSelect",
+          "audioIndex": 14,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.ccw": {
+          "type": "obs",
+          "label": "이전 오디오 소스",
+          "obsOperation": "sourcePrevious",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.cw": {
+          "type": "obs",
+          "label": "다음 오디오 소스",
+          "obsOperation": "sourceNext",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.press": {
+          "type": "obs",
+          "label": "선택 소스 상태",
+          "obsOperation": "sourceStatus",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.ccw": {
+          "type": "obs",
+          "label": "선택 소스 −0.5dB",
+          "obsOperation": "volumeDown",
+          "inputRole": "selected",
+          "volumeStepDb": 0.5,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.cw": {
+          "type": "obs",
+          "label": "선택 소스 +0.5dB",
+          "obsOperation": "volumeUp",
+          "inputRole": "selected",
+          "volumeStepDb": 0.5,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.press": {
+          "type": "obs",
+          "label": "선택 소스 음소거",
+          "obsOperation": "toggleMute",
+          "inputRole": "selected",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "obs",
+            "label": "오디오 01 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "오디오 02 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "오디오 03 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "오디오 04 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "오디오 05 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "오디오 06 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "오디오 07 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 6,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "오디오 08 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 7,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "오디오 09 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 8,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "오디오 10 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 9,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "오디오 11 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 10,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "오디오 12 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 11,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "오디오 13 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 12,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "오디오 14 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 13,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "오디오 15 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 14,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 오디오 소스",
+            "obsOperation": "sourcePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 오디오 소스",
+            "obsOperation": "sourceNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "선택 소스 상태",
+            "obsOperation": "sourceStatus",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "선택 소스 −0.5dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "selected",
+            "volumeStepDb": 0.5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "선택 소스 +0.5dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "selected",
+            "volumeStepDb": 0.5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "선택 소스 음소거",
+            "obsOperation": "toggleMute",
+            "inputRole": "selected",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "obs",
+            "label": "오디오 01 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "오디오 02 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "오디오 03 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "오디오 04 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "오디오 05 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "오디오 06 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "오디오 07 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 6,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "오디오 08 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 7,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "오디오 09 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 8,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "오디오 10 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 9,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "오디오 11 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 10,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "오디오 12 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 11,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "오디오 13 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 12,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "오디오 14 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 13,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "오디오 15 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 14,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 오디오 소스",
+            "obsOperation": "sourcePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 오디오 소스",
+            "obsOperation": "sourceNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "선택 소스 상태",
+            "obsOperation": "sourceStatus",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "선택 소스 −0.5dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "selected",
+            "volumeStepDb": 0.5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "선택 소스 +0.5dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "selected",
+            "volumeStepDb": 0.5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "선택 소스 음소거",
+            "obsOperation": "toggleMute",
+            "inputRole": "selected",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "obs",
+            "label": "오디오 01 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "오디오 02 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "오디오 03 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "오디오 04 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "오디오 05 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "오디오 06 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "오디오 07 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 6,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "오디오 08 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 7,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "오디오 09 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 8,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "오디오 10 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 9,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "오디오 11 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 10,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "오디오 12 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 11,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "오디오 13 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 12,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "오디오 14 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 13,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "오디오 15 선택",
+            "obsOperation": "sourceSelect",
+            "audioIndex": 14,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 오디오 소스",
+            "obsOperation": "sourcePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 오디오 소스",
+            "obsOperation": "sourceNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "선택 소스 상태",
+            "obsOperation": "sourceStatus",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "선택 소스 −0.5dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "selected",
+            "volumeStepDb": 0.5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "선택 소스 +0.5dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "selected",
+            "volumeStepDb": 0.5,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "선택 소스 음소거",
+            "obsOperation": "toggleMute",
+            "inputRole": "selected",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        }
+      }
+    }
+  ]
+}

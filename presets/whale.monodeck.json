@@ -1,0 +1,1338 @@
+{
+  "format": "mono-deck-preset-pack",
+  "version": 1,
+  "name": "웨일 · 탐색·수집",
+  "description": "웨일 창을 앞에 두고 사용하세요. 작은 노브: 탭 이동 / 클릭 닫은 탭 복원. 큰 노브: 스크롤 / 클릭 페이지 맨 위. 14번은 네이버 시작 페이지이며 원하는 업무 URL로 편집할 수 있습니다.",
+  "knobOrder": [
+    1,
+    2,
+    3
+  ],
+  "profiles": [
+    {
+      "id": "whale",
+      "presetId": "monodeck.work.whale.v1",
+      "name": "웨일 · 탐색·수집",
+      "description": "웨일 창을 앞에 두고 사용하세요. 작은 노브: 탭 이동 / 클릭 닫은 탭 복원. 큰 노브: 스크롤 / 클릭 페이지 맨 위. 14번은 네이버 시작 페이지이며 원하는 업무 URL로 편집할 수 있습니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "shortcut",
+          "label": "새 탭",
+          "keys": [
+            "CTRL",
+            "T"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key2": {
+          "type": "shortcut",
+          "label": "닫은 탭 복원",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "T"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key3": {
+          "type": "shortcut",
+          "label": "탭 닫기",
+          "keys": [
+            "CTRL",
+            "W"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key4": {
+          "type": "shortcut",
+          "label": "이전 탭",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key5": {
+          "type": "shortcut",
+          "label": "다음 탭",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key6": {
+          "type": "sequence",
+          "label": "주소 복사",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "주소 선택",
+              "keys": [
+                "CTRL",
+                "L"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "주소 복사",
+              "keys": [
+                "CTRL",
+                "C"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "페이지로",
+              "keys": [
+                "ESC"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key7": {
+          "type": "sequence",
+          "label": "선택 문구 검색",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "선택 문구 복사",
+              "keys": [
+                "CTRL",
+                "C"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "80ms 대기",
+              "delayMs": 80
+            },
+            {
+              "type": "shortcut",
+              "label": "새 탭",
+              "keys": [
+                "CTRL",
+                "T"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "200ms 대기",
+              "delayMs": 200
+            },
+            {
+              "type": "shortcut",
+              "label": "검색 입력",
+              "keys": [
+                "CTRL",
+                "K"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "붙여넣기",
+              "keys": [
+                "CTRL",
+                "V"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "검색",
+              "keys": [
+                "ENTER"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key8": {
+          "type": "shortcut",
+          "label": "페이지 찾기",
+          "keys": [
+            "CTRL",
+            "F"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key9": {
+          "type": "shortcut",
+          "label": "북마크",
+          "keys": [
+            "CTRL",
+            "D"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key10": {
+          "type": "shortcut",
+          "label": "전체 캡처",
+          "keys": [
+            "ALT",
+            "3"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key11": {
+          "type": "shortcut",
+          "label": "영역 캡처",
+          "keys": [
+            "ALT",
+            "1"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key12": {
+          "type": "shortcut",
+          "label": "다운로드",
+          "keys": [
+            "CTRL",
+            "J"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key13": {
+          "type": "shortcut",
+          "label": "방문 기록",
+          "keys": [
+            "CTRL",
+            "H"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key14": {
+          "type": "sequence",
+          "label": "업무 시작 · 네이버",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "새 탭",
+              "keys": [
+                "CTRL",
+                "T"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "200ms 대기",
+              "delayMs": 200
+            },
+            {
+              "type": "text",
+              "label": "주소",
+              "text": "https://www.naver.com",
+              "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+              "icon": "FileText",
+              "color": "#9bd9cf"
+            },
+            {
+              "type": "shortcut",
+              "label": "열기",
+              "keys": [
+                "ENTER"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key15": {
+          "type": "text",
+          "label": "자료 메모 양식",
+          "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "이전 탭",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "다음 탭",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "닫은 탭 복원",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "T"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "mouse",
+          "label": "페이지 위로",
+          "mouseAction": "scroll",
+          "delta": 120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.cw": {
+          "type": "mouse",
+          "label": "페이지 아래로",
+          "mouseAction": "scroll",
+          "delta": -120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "페이지 맨 위",
+          "keys": [
+            "CTRL",
+            "HOME"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 탭",
+            "keys": [
+              "CTRL",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "탭 닫기",
+            "keys": [
+              "CTRL",
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "sequence",
+            "label": "주소 복사",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "주소 선택",
+                "keys": [
+                  "CTRL",
+                  "L"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "주소 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "페이지로",
+                "keys": [
+                  "ESC"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key7": {
+            "type": "sequence",
+            "label": "선택 문구 검색",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "선택 문구 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "shortcut",
+                "label": "검색 입력",
+                "keys": [
+                  "CTRL",
+                  "K"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "붙여넣기",
+                "keys": [
+                  "CTRL",
+                  "V"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "검색",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "페이지 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "북마크",
+            "keys": [
+              "CTRL",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "전체 캡처",
+            "keys": [
+              "ALT",
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "영역 캡처",
+            "keys": [
+              "ALT",
+              "1"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "다운로드",
+            "keys": [
+              "CTRL",
+              "J"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "방문 기록",
+            "keys": [
+              "CTRL",
+              "H"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "sequence",
+            "label": "업무 시작 · 네이버",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "text",
+                "label": "주소",
+                "text": "https://www.naver.com",
+                "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+                "icon": "FileText",
+                "color": "#9bd9cf"
+              },
+              {
+                "type": "shortcut",
+                "label": "열기",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key15": {
+            "type": "text",
+            "label": "자료 메모 양식",
+            "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "페이지 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "페이지 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "페이지 맨 위",
+            "keys": [
+              "CTRL",
+              "HOME"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 탭",
+            "keys": [
+              "CTRL",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "탭 닫기",
+            "keys": [
+              "CTRL",
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "sequence",
+            "label": "주소 복사",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "주소 선택",
+                "keys": [
+                  "CTRL",
+                  "L"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "주소 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "페이지로",
+                "keys": [
+                  "ESC"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key7": {
+            "type": "sequence",
+            "label": "선택 문구 검색",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "선택 문구 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "shortcut",
+                "label": "검색 입력",
+                "keys": [
+                  "CTRL",
+                  "K"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "붙여넣기",
+                "keys": [
+                  "CTRL",
+                  "V"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "검색",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "페이지 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "북마크",
+            "keys": [
+              "CTRL",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "전체 캡처",
+            "keys": [
+              "ALT",
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "영역 캡처",
+            "keys": [
+              "ALT",
+              "1"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "다운로드",
+            "keys": [
+              "CTRL",
+              "J"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "방문 기록",
+            "keys": [
+              "CTRL",
+              "H"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "sequence",
+            "label": "업무 시작 · 네이버",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "text",
+                "label": "주소",
+                "text": "https://www.naver.com",
+                "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+                "icon": "FileText",
+                "color": "#9bd9cf"
+              },
+              {
+                "type": "shortcut",
+                "label": "열기",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key15": {
+            "type": "text",
+            "label": "자료 메모 양식",
+            "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "페이지 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "페이지 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "페이지 맨 위",
+            "keys": [
+              "CTRL",
+              "HOME"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 탭",
+            "keys": [
+              "CTRL",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "탭 닫기",
+            "keys": [
+              "CTRL",
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "sequence",
+            "label": "주소 복사",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "주소 선택",
+                "keys": [
+                  "CTRL",
+                  "L"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "주소 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "페이지로",
+                "keys": [
+                  "ESC"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key7": {
+            "type": "sequence",
+            "label": "선택 문구 검색",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "선택 문구 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "shortcut",
+                "label": "검색 입력",
+                "keys": [
+                  "CTRL",
+                  "K"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "붙여넣기",
+                "keys": [
+                  "CTRL",
+                  "V"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "검색",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "페이지 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "북마크",
+            "keys": [
+              "CTRL",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "전체 캡처",
+            "keys": [
+              "ALT",
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "영역 캡처",
+            "keys": [
+              "ALT",
+              "1"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "다운로드",
+            "keys": [
+              "CTRL",
+              "J"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "방문 기록",
+            "keys": [
+              "CTRL",
+              "H"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "sequence",
+            "label": "업무 시작 · 네이버",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "text",
+                "label": "주소",
+                "text": "https://www.naver.com",
+                "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+                "icon": "FileText",
+                "color": "#9bd9cf"
+              },
+              {
+                "type": "shortcut",
+                "label": "열기",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key15": {
+            "type": "text",
+            "label": "자료 메모 양식",
+            "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "페이지 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "페이지 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "페이지 맨 위",
+            "keys": [
+              "CTRL",
+              "HOME"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,914 @@
+{
+  "format": "mono-deck-preset-pack",
+  "version": 1,
+  "name": "GPT · 앱 기능",
+  "description": "ChatGPT Windows 앱(26.1111 계열) 기능 단축키 15개. 새 대화·임시 대화·명령 메뉴·대화 내 검색·모델·받아쓰기·대화 관리. 작은 노브: 이전/다음 대화·탭 / 클릭 모델 선택. 큰 노브: 포인터 아래 스크롤 / 클릭 대화 내 검색. ChatGPT 앱을 앞에 두세요. 임시 대화는 ChatGPT 채팅 모드, 받아쓰기는 기능·마이크 권한이 필요합니다. 사용자 지정 단축키는 앱 설정에 맞춰 수정하세요.",
+  "knobOrder": [
+    1,
+    2,
+    3
+  ],
+  "profiles": [
+    {
+      "id": "gpt",
+      "presetId": "monodeck.work.gpt.v2",
+      "name": "GPT · 앱 기능",
+      "description": "ChatGPT Windows 앱(26.1111 계열) 기능 단축키 15개. 새 대화·임시 대화·명령 메뉴·대화 내 검색·모델·받아쓰기·대화 관리. 작은 노브: 이전/다음 대화·탭 / 클릭 모델 선택. 큰 노브: 포인터 아래 스크롤 / 클릭 대화 내 검색. ChatGPT 앱을 앞에 두세요. 임시 대화는 ChatGPT 채팅 모드, 받아쓰기는 기능·마이크 권한이 필요합니다. 사용자 지정 단축키는 앱 설정에 맞춰 수정하세요.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "shortcut",
+          "label": "새 대화",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "O"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key2": {
+          "type": "shortcut",
+          "label": "임시 대화",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "N"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff",
+          "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+        },
+        "key3": {
+          "type": "shortcut",
+          "label": "명령 메뉴",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "P"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key4": {
+          "type": "shortcut",
+          "label": "대화 안에서 찾기",
+          "keys": [
+            "CTRL",
+            "F"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key5": {
+          "type": "shortcut",
+          "label": "사이드바 접기·펼치기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "S"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key6": {
+          "type": "shortcut",
+          "label": "모델·추론 선택",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "M"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key7": {
+          "type": "shortcut",
+          "label": "최근 모델 선택",
+          "keys": [
+            "ALT",
+            "M"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key8": {
+          "type": "shortcut",
+          "label": "받아쓰기 켜기·끄기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "D"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff",
+          "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+        },
+        "key9": {
+          "type": "shortcut",
+          "label": "대화 이름 변경",
+          "keys": [
+            "CTRL",
+            "ALT",
+            "R"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key10": {
+          "type": "shortcut",
+          "label": "대화 고정·해제",
+          "keys": [
+            "CTRL",
+            "ALT",
+            "P"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key11": {
+          "type": "shortcut",
+          "label": "뒤로 이동",
+          "keys": [
+            "CTRL",
+            "["
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key12": {
+          "type": "shortcut",
+          "label": "앞으로 이동",
+          "keys": [
+            "CTRL",
+            "]"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key13": {
+          "type": "shortcut",
+          "label": "대화 링크 복사",
+          "keys": [
+            "CTRL",
+            "ALT",
+            "L"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key14": {
+          "type": "shortcut",
+          "label": "앱 설정",
+          "keys": [
+            "CTRL",
+            ","
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key15": {
+          "type": "shortcut",
+          "label": "단축키 목록",
+          "keys": [
+            "CTRL",
+            "/"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "이전 대화·탭",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "다음 대화·탭",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "모델·추론 선택",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "M"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "mouse",
+          "label": "대화 위로",
+          "mouseAction": "scroll",
+          "delta": 120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.cw": {
+          "type": "mouse",
+          "label": "대화 아래로",
+          "mouseAction": "scroll",
+          "delta": -120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "대화 안에서 찾기",
+          "keys": [
+            "CTRL",
+            "F"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "O"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "임시 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "N"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "명령 메뉴",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "사이드바 접기·펼치기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "최근 모델 선택",
+            "keys": [
+              "ALT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "받아쓰기 켜기·끄기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "대화 이름 변경",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "대화 고정·해제",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "뒤로 이동",
+            "keys": [
+              "CTRL",
+              "["
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "앞으로 이동",
+            "keys": [
+              "CTRL",
+              "]"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "대화 링크 복사",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "L"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "앱 설정",
+            "keys": [
+              "CTRL",
+              ","
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "단축키 목록",
+            "keys": [
+              "CTRL",
+              "/"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 대화·탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 대화·탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "대화 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "대화 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "O"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "임시 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "N"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "명령 메뉴",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "사이드바 접기·펼치기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "최근 모델 선택",
+            "keys": [
+              "ALT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "받아쓰기 켜기·끄기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "대화 이름 변경",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "대화 고정·해제",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "뒤로 이동",
+            "keys": [
+              "CTRL",
+              "["
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "앞으로 이동",
+            "keys": [
+              "CTRL",
+              "]"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "대화 링크 복사",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "L"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "앱 설정",
+            "keys": [
+              "CTRL",
+              ","
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "단축키 목록",
+            "keys": [
+              "CTRL",
+              "/"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 대화·탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 대화·탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "대화 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "대화 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "O"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "임시 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "N"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "명령 메뉴",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "사이드바 접기·펼치기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "최근 모델 선택",
+            "keys": [
+              "ALT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "받아쓰기 켜기·끄기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "대화 이름 변경",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "대화 고정·해제",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "뒤로 이동",
+            "keys": [
+              "CTRL",
+              "["
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "앞으로 이동",
+            "keys": [
+              "CTRL",
+              "]"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "대화 링크 복사",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "L"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "앱 설정",
+            "keys": [
+              "CTRL",
+              ","
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "단축키 목록",
+            "keys": [
+              "CTRL",
+              "/"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 대화·탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 대화·탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "대화 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "대화 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    }
+  ]
+}

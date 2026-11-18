@@ -1,0 +1,1002 @@
+{
+  "format": "mono-deck-preset-pack",
+  "version": 1,
+  "name": "Lightroom 5 · 선별·보정",
+  "description": "Lightroom 5.7 계열 기본 단축키. 1·2번은 표시 후 다음 사진으로 이동합니다. 텍스트 입력 중에는 사용하지 마세요. 작은 노브: 사진 이동 / 클릭 확대. 큰 노브: 선택한 현상 슬라이더 ± / 클릭 보정 전 보기. 노브로 조절할 슬라이더를 먼저 선택하세요.",
+  "knobOrder": [
+    1,
+    2,
+    3
+  ],
+  "profiles": [
+    {
+      "id": "lightroom5",
+      "presetId": "monodeck.work.lightroom5.v1",
+      "name": "Lightroom 5 · 선별·보정",
+      "description": "Lightroom 5.7 계열 기본 단축키. 1·2번은 표시 후 다음 사진으로 이동합니다. 텍스트 입력 중에는 사용하지 마세요. 작은 노브: 사진 이동 / 클릭 확대. 큰 노브: 선택한 현상 슬라이더 ± / 클릭 보정 전 보기. 노브로 조절할 슬라이더를 먼저 선택하세요.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "sequence",
+          "label": "채택 → 다음",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "채택",
+              "keys": [
+                "P"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "80ms 대기",
+              "delayMs": 80
+            },
+            {
+              "type": "shortcut",
+              "label": "다음 사진",
+              "keys": [
+                "RIGHT"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key2": {
+          "type": "sequence",
+          "label": "제외 → 다음",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "제외",
+              "keys": [
+                "X"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "80ms 대기",
+              "delayMs": 80
+            },
+            {
+              "type": "shortcut",
+              "label": "다음 사진",
+              "keys": [
+                "RIGHT"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key3": {
+          "type": "shortcut",
+          "label": "표시 해제",
+          "keys": [
+            "U"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key4": {
+          "type": "shortcut",
+          "label": "별점 3",
+          "keys": [
+            "3"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key5": {
+          "type": "shortcut",
+          "label": "별점 5",
+          "keys": [
+            "5"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key6": {
+          "type": "shortcut",
+          "label": "격자 보기",
+          "keys": [
+            "G"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key7": {
+          "type": "shortcut",
+          "label": "한 장 보기",
+          "keys": [
+            "E"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key8": {
+          "type": "shortcut",
+          "label": "현상 모듈",
+          "keys": [
+            "D"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key9": {
+          "type": "shortcut",
+          "label": "자르기",
+          "keys": [
+            "R"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key10": {
+          "type": "shortcut",
+          "label": "화이트밸런스",
+          "keys": [
+            "W"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key11": {
+          "type": "shortcut",
+          "label": "보정 복사",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "C"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key12": {
+          "type": "shortcut",
+          "label": "보정 붙여넣기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "V"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key13": {
+          "type": "shortcut",
+          "label": "보정 동기화",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "S"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key14": {
+          "type": "shortcut",
+          "label": "전·후 비교",
+          "keys": [
+            "Y"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key15": {
+          "type": "shortcut",
+          "label": "내보내기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "E"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "이전 사진",
+          "keys": [
+            "LEFT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "다음 사진",
+          "keys": [
+            "RIGHT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "확대 전환",
+          "keys": [
+            "Z"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "shortcut",
+          "label": "선택 슬라이더 −",
+          "keys": [
+            "DOWN"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.cw": {
+          "type": "shortcut",
+          "label": "선택 슬라이더 +",
+          "keys": [
+            "UP"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "보정 전 보기",
+          "keys": [
+            "\\"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "sequence",
+            "label": "채택 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "채택",
+                "keys": [
+                  "P"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key2": {
+            "type": "sequence",
+            "label": "제외 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "제외",
+                "keys": [
+                  "X"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "표시 해제",
+            "keys": [
+              "U"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "별점 3",
+            "keys": [
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "별점 5",
+            "keys": [
+              "5"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "격자 보기",
+            "keys": [
+              "G"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "한 장 보기",
+            "keys": [
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "현상 모듈",
+            "keys": [
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "자르기",
+            "keys": [
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "화이트밸런스",
+            "keys": [
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "보정 복사",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "C"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "보정 붙여넣기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "V"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "보정 동기화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "전·후 비교",
+            "keys": [
+              "Y"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "내보내기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 사진",
+            "keys": [
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 사진",
+            "keys": [
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "확대 전환",
+            "keys": [
+              "Z"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 −",
+            "keys": [
+              "DOWN"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.cw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 +",
+            "keys": [
+              "UP"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "보정 전 보기",
+            "keys": [
+              "\\"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "sequence",
+            "label": "채택 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "채택",
+                "keys": [
+                  "P"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key2": {
+            "type": "sequence",
+            "label": "제외 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "제외",
+                "keys": [
+                  "X"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "표시 해제",
+            "keys": [
+              "U"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "별점 3",
+            "keys": [
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "별점 5",
+            "keys": [
+              "5"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "격자 보기",
+            "keys": [
+              "G"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "한 장 보기",
+            "keys": [
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "현상 모듈",
+            "keys": [
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "자르기",
+            "keys": [
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "화이트밸런스",
+            "keys": [
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "보정 복사",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "C"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "보정 붙여넣기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "V"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "보정 동기화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "전·후 비교",
+            "keys": [
+              "Y"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "내보내기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 사진",
+            "keys": [
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 사진",
+            "keys": [
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "확대 전환",
+            "keys": [
+              "Z"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 −",
+            "keys": [
+              "DOWN"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.cw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 +",
+            "keys": [
+              "UP"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "보정 전 보기",
+            "keys": [
+              "\\"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "sequence",
+            "label": "채택 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "채택",
+                "keys": [
+                  "P"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key2": {
+            "type": "sequence",
+            "label": "제외 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "제외",
+                "keys": [
+                  "X"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "표시 해제",
+            "keys": [
+              "U"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "별점 3",
+            "keys": [
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "별점 5",
+            "keys": [
+              "5"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "격자 보기",
+            "keys": [
+              "G"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "한 장 보기",
+            "keys": [
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "현상 모듈",
+            "keys": [
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "자르기",
+            "keys": [
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "화이트밸런스",
+            "keys": [
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "보정 복사",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "C"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "보정 붙여넣기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "V"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "보정 동기화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "전·후 비교",
+            "keys": [
+              "Y"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "내보내기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 사진",
+            "keys": [
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 사진",
+            "keys": [
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "확대 전환",
+            "keys": [
+              "Z"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 −",
+            "keys": [
+              "DOWN"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.cw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 +",
+            "keys": [
+              "UP"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "보정 전 보기",
+            "keys": [
+              "\\"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    }
+  ]
+}

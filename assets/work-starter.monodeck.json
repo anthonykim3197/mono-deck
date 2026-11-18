@@ -1,0 +1,5339 @@
+{
+  "format": "mono-deck-preset-pack",
+  "version": 1,
+  "name": "업무 스타터 · AI / 웨일 / Lightroom / OBS",
+  "description": "새 PC 페이지 6개를 추가합니다. 기존 페이지·순서·선택 상태·공통 전환 노브는 유지됩니다. 프리셋마다 15키와 보조 노브 2개를 그룹 1·2·3 모두에 배치합니다. OBS는 별도 연결이 필요합니다.",
+  "knobOrder": [
+    1,
+    2,
+    3
+  ],
+  "profiles": [
+    {
+      "id": "gpt",
+      "presetId": "monodeck.work.gpt.v2",
+      "name": "GPT · 앱 기능",
+      "description": "ChatGPT Windows 앱(26.1111 계열) 기능 단축키 15개. 새 대화·임시 대화·명령 메뉴·대화 내 검색·모델·받아쓰기·대화 관리. 작은 노브: 이전/다음 대화·탭 / 클릭 모델 선택. 큰 노브: 포인터 아래 스크롤 / 클릭 대화 내 검색. ChatGPT 앱을 앞에 두세요. 임시 대화는 ChatGPT 채팅 모드, 받아쓰기는 기능·마이크 권한이 필요합니다. 사용자 지정 단축키는 앱 설정에 맞춰 수정하세요.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "shortcut",
+          "label": "새 대화",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "O"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key2": {
+          "type": "shortcut",
+          "label": "임시 대화",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "N"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff",
+          "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+        },
+        "key3": {
+          "type": "shortcut",
+          "label": "명령 메뉴",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "P"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key4": {
+          "type": "shortcut",
+          "label": "대화 안에서 찾기",
+          "keys": [
+            "CTRL",
+            "F"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key5": {
+          "type": "shortcut",
+          "label": "사이드바 접기·펼치기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "S"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key6": {
+          "type": "shortcut",
+          "label": "모델·추론 선택",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "M"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key7": {
+          "type": "shortcut",
+          "label": "최근 모델 선택",
+          "keys": [
+            "ALT",
+            "M"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key8": {
+          "type": "shortcut",
+          "label": "받아쓰기 켜기·끄기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "D"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff",
+          "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+        },
+        "key9": {
+          "type": "shortcut",
+          "label": "대화 이름 변경",
+          "keys": [
+            "CTRL",
+            "ALT",
+            "R"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key10": {
+          "type": "shortcut",
+          "label": "대화 고정·해제",
+          "keys": [
+            "CTRL",
+            "ALT",
+            "P"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key11": {
+          "type": "shortcut",
+          "label": "뒤로 이동",
+          "keys": [
+            "CTRL",
+            "["
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key12": {
+          "type": "shortcut",
+          "label": "앞으로 이동",
+          "keys": [
+            "CTRL",
+            "]"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key13": {
+          "type": "shortcut",
+          "label": "대화 링크 복사",
+          "keys": [
+            "CTRL",
+            "ALT",
+            "L"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key14": {
+          "type": "shortcut",
+          "label": "앱 설정",
+          "keys": [
+            "CTRL",
+            ","
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key15": {
+          "type": "shortcut",
+          "label": "단축키 목록",
+          "keys": [
+            "CTRL",
+            "/"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "이전 대화·탭",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "다음 대화·탭",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "모델·추론 선택",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "M"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "mouse",
+          "label": "대화 위로",
+          "mouseAction": "scroll",
+          "delta": 120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.cw": {
+          "type": "mouse",
+          "label": "대화 아래로",
+          "mouseAction": "scroll",
+          "delta": -120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "대화 안에서 찾기",
+          "keys": [
+            "CTRL",
+            "F"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "O"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "임시 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "N"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "명령 메뉴",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "사이드바 접기·펼치기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "최근 모델 선택",
+            "keys": [
+              "ALT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "받아쓰기 켜기·끄기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "대화 이름 변경",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "대화 고정·해제",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "뒤로 이동",
+            "keys": [
+              "CTRL",
+              "["
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "앞으로 이동",
+            "keys": [
+              "CTRL",
+              "]"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "대화 링크 복사",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "L"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "앱 설정",
+            "keys": [
+              "CTRL",
+              ","
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "단축키 목록",
+            "keys": [
+              "CTRL",
+              "/"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 대화·탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 대화·탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "대화 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "대화 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "O"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "임시 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "N"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "명령 메뉴",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "사이드바 접기·펼치기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "최근 모델 선택",
+            "keys": [
+              "ALT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "받아쓰기 켜기·끄기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "대화 이름 변경",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "대화 고정·해제",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "뒤로 이동",
+            "keys": [
+              "CTRL",
+              "["
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "앞으로 이동",
+            "keys": [
+              "CTRL",
+              "]"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "대화 링크 복사",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "L"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "앱 설정",
+            "keys": [
+              "CTRL",
+              ","
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "단축키 목록",
+            "keys": [
+              "CTRL",
+              "/"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 대화·탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 대화·탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "대화 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "대화 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "O"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "임시 대화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "N"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "ChatGPT 채팅 모드에서 새 임시 대화를 엽니다."
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "명령 메뉴",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "사이드바 접기·펼치기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "최근 모델 선택",
+            "keys": [
+              "ALT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "받아쓰기 켜기·끄기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff",
+            "comment": "앱의 받아쓰기 기능과 마이크 권한이 준비된 경우 사용합니다."
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "대화 이름 변경",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "대화 고정·해제",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "P"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "뒤로 이동",
+            "keys": [
+              "CTRL",
+              "["
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "앞으로 이동",
+            "keys": [
+              "CTRL",
+              "]"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "대화 링크 복사",
+            "keys": [
+              "CTRL",
+              "ALT",
+              "L"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "앱 설정",
+            "keys": [
+              "CTRL",
+              ","
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "단축키 목록",
+            "keys": [
+              "CTRL",
+              "/"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 대화·탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 대화·탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "모델·추론 선택",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "M"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "대화 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "대화 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "대화 안에서 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "claude",
+      "presetId": "monodeck.work.claude.v1",
+      "name": "Claude · 작성·수정",
+      "description": "15개 요청문 · 입력창을 먼저 클릭하세요. 자동 전송하지 않습니다. 작은 노브: 단어 단위 커서 이동 / 클릭 줄바꿈. 큰 노브: 포인터 아래 스크롤 / 클릭 끝으로. 그룹 1·2·3 동일. 자동 앱 전환은 꺼진 상태로 추가됩니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "text",
+          "label": "초안 완성",
+          "text": "아래 초안을 목적과 독자에 맞는 완성된 글로 다듬어줘. 새 사실은 만들어 넣지 말아줘.\n목적·독자:\n초안:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key2": {
+          "type": "text",
+          "label": "문장 다듬기",
+          "text": "아래 글의 의미를 유지하면서 어색한 표현, 문장 연결, 맞춤법을 자연스럽게 다듬어줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key3": {
+          "type": "text",
+          "label": "중복 줄이기",
+          "text": "아래 글에서 중복과 군더더기를 줄여줘. 중요한 조건, 수치, 근거는 남겨줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key4": {
+          "type": "text",
+          "label": "업무 보고서",
+          "text": "아래 내용을 배경, 진행 내용, 결과, 문제, 다음 행동 순서의 간결한 업무 보고서로 작성해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key5": {
+          "type": "text",
+          "label": "정중하게 수정",
+          "text": "아래 문장을 정중하지만 지나치게 딱딱하지 않은 업무 말투로 바꿔줘. 뜻을 추가하지 말아줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key6": {
+          "type": "text",
+          "label": "문서 구조",
+          "text": "아래 자료의 제목, 소제목, 문단 순서를 설계해줘. 읽는 사람이 이해하기 쉬운 순서로 묶어줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key7": {
+          "type": "text",
+          "label": "모순·누락 검토",
+          "text": "아래 문서의 모순, 누락, 모호한 표현을 찾아줘. 위치와 문제 이유, 수정안을 함께 적어줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key8": {
+          "type": "text",
+          "label": "표로 정리",
+          "text": "아래 내용을 비교·검색하기 쉬운 표로 정리해줘. 원문에 없는 정보는 빈칸 또는 미확인으로 표시해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key9": {
+          "type": "text",
+          "label": "표를 설명문으로",
+          "text": "아래 표의 핵심 변화와 의미를 읽기 쉬운 설명문으로 작성해줘. 수치를 정확히 보존해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key10": {
+          "type": "text",
+          "label": "자막 다듬기",
+          "text": "아래 자막을 짧고 읽기 쉽게 다듬어줘. 의미와 말투를 유지하고 타임코드가 있으면 보존해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key11": {
+          "type": "text",
+          "label": "설명 영상 대본",
+          "text": "다음 주제의 설명 영상 대본을 도입, 핵심 설명, 예시, 마무리 순서로 작성해줘.\n주제:\n대상 시청자:\n영상 길이:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key12": {
+          "type": "text",
+          "label": "수정 요구사항",
+          "text": "아래 아이디어를 개발자가 구현할 수 있는 요구사항으로 정리해줘. 현재 문제, 원하는 동작, 예외 상황, 완료 기준을 포함해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key13": {
+          "type": "text",
+          "label": "코드·설정 검토",
+          "text": "아래 코드 또는 설정을 검토해서 실제 오류 가능성이 있는 부분을 우선순위와 근거로 설명해줘. 필요한 수정은 최소 범위로 제안해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key14": {
+          "type": "text",
+          "label": "검증 방법",
+          "text": "현재 결과물이 요구사항을 충족하는지 확인할 검증 방법과 예상 결과를 작성해줘. 정상 사례와 경계 사례를 포함해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key15": {
+          "type": "text",
+          "label": "대화 인계",
+          "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "입력 커서 · 이전 단어",
+          "keys": [
+            "CTRL",
+            "LEFT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "입력 커서 · 다음 단어",
+          "keys": [
+            "CTRL",
+            "RIGHT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "입력창 줄바꿈",
+          "keys": [
+            "SHIFT",
+            "ENTER"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "mouse",
+          "label": "답변 위로",
+          "mouseAction": "scroll",
+          "delta": 120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.cw": {
+          "type": "mouse",
+          "label": "답변 아래로",
+          "mouseAction": "scroll",
+          "delta": -120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "문서·입력 끝으로",
+          "keys": [
+            "CTRL",
+            "END"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "text",
+            "label": "초안 완성",
+            "text": "아래 초안을 목적과 독자에 맞는 완성된 글로 다듬어줘. 새 사실은 만들어 넣지 말아줘.\n목적·독자:\n초안:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key2": {
+            "type": "text",
+            "label": "문장 다듬기",
+            "text": "아래 글의 의미를 유지하면서 어색한 표현, 문장 연결, 맞춤법을 자연스럽게 다듬어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key3": {
+            "type": "text",
+            "label": "중복 줄이기",
+            "text": "아래 글에서 중복과 군더더기를 줄여줘. 중요한 조건, 수치, 근거는 남겨줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key4": {
+            "type": "text",
+            "label": "업무 보고서",
+            "text": "아래 내용을 배경, 진행 내용, 결과, 문제, 다음 행동 순서의 간결한 업무 보고서로 작성해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key5": {
+            "type": "text",
+            "label": "정중하게 수정",
+            "text": "아래 문장을 정중하지만 지나치게 딱딱하지 않은 업무 말투로 바꿔줘. 뜻을 추가하지 말아줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key6": {
+            "type": "text",
+            "label": "문서 구조",
+            "text": "아래 자료의 제목, 소제목, 문단 순서를 설계해줘. 읽는 사람이 이해하기 쉬운 순서로 묶어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key7": {
+            "type": "text",
+            "label": "모순·누락 검토",
+            "text": "아래 문서의 모순, 누락, 모호한 표현을 찾아줘. 위치와 문제 이유, 수정안을 함께 적어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key8": {
+            "type": "text",
+            "label": "표로 정리",
+            "text": "아래 내용을 비교·검색하기 쉬운 표로 정리해줘. 원문에 없는 정보는 빈칸 또는 미확인으로 표시해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key9": {
+            "type": "text",
+            "label": "표를 설명문으로",
+            "text": "아래 표의 핵심 변화와 의미를 읽기 쉬운 설명문으로 작성해줘. 수치를 정확히 보존해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key10": {
+            "type": "text",
+            "label": "자막 다듬기",
+            "text": "아래 자막을 짧고 읽기 쉽게 다듬어줘. 의미와 말투를 유지하고 타임코드가 있으면 보존해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key11": {
+            "type": "text",
+            "label": "설명 영상 대본",
+            "text": "다음 주제의 설명 영상 대본을 도입, 핵심 설명, 예시, 마무리 순서로 작성해줘.\n주제:\n대상 시청자:\n영상 길이:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key12": {
+            "type": "text",
+            "label": "수정 요구사항",
+            "text": "아래 아이디어를 개발자가 구현할 수 있는 요구사항으로 정리해줘. 현재 문제, 원하는 동작, 예외 상황, 완료 기준을 포함해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key13": {
+            "type": "text",
+            "label": "코드·설정 검토",
+            "text": "아래 코드 또는 설정을 검토해서 실제 오류 가능성이 있는 부분을 우선순위와 근거로 설명해줘. 필요한 수정은 최소 범위로 제안해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key14": {
+            "type": "text",
+            "label": "검증 방법",
+            "text": "현재 결과물이 요구사항을 충족하는지 확인할 검증 방법과 예상 결과를 작성해줘. 정상 사례와 경계 사례를 포함해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key15": {
+            "type": "text",
+            "label": "대화 인계",
+            "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 이전 단어",
+            "keys": [
+              "CTRL",
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 다음 단어",
+            "keys": [
+              "CTRL",
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "입력창 줄바꿈",
+            "keys": [
+              "SHIFT",
+              "ENTER"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "답변 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "답변 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "문서·입력 끝으로",
+            "keys": [
+              "CTRL",
+              "END"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "text",
+            "label": "초안 완성",
+            "text": "아래 초안을 목적과 독자에 맞는 완성된 글로 다듬어줘. 새 사실은 만들어 넣지 말아줘.\n목적·독자:\n초안:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key2": {
+            "type": "text",
+            "label": "문장 다듬기",
+            "text": "아래 글의 의미를 유지하면서 어색한 표현, 문장 연결, 맞춤법을 자연스럽게 다듬어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key3": {
+            "type": "text",
+            "label": "중복 줄이기",
+            "text": "아래 글에서 중복과 군더더기를 줄여줘. 중요한 조건, 수치, 근거는 남겨줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key4": {
+            "type": "text",
+            "label": "업무 보고서",
+            "text": "아래 내용을 배경, 진행 내용, 결과, 문제, 다음 행동 순서의 간결한 업무 보고서로 작성해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key5": {
+            "type": "text",
+            "label": "정중하게 수정",
+            "text": "아래 문장을 정중하지만 지나치게 딱딱하지 않은 업무 말투로 바꿔줘. 뜻을 추가하지 말아줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key6": {
+            "type": "text",
+            "label": "문서 구조",
+            "text": "아래 자료의 제목, 소제목, 문단 순서를 설계해줘. 읽는 사람이 이해하기 쉬운 순서로 묶어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key7": {
+            "type": "text",
+            "label": "모순·누락 검토",
+            "text": "아래 문서의 모순, 누락, 모호한 표현을 찾아줘. 위치와 문제 이유, 수정안을 함께 적어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key8": {
+            "type": "text",
+            "label": "표로 정리",
+            "text": "아래 내용을 비교·검색하기 쉬운 표로 정리해줘. 원문에 없는 정보는 빈칸 또는 미확인으로 표시해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key9": {
+            "type": "text",
+            "label": "표를 설명문으로",
+            "text": "아래 표의 핵심 변화와 의미를 읽기 쉬운 설명문으로 작성해줘. 수치를 정확히 보존해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key10": {
+            "type": "text",
+            "label": "자막 다듬기",
+            "text": "아래 자막을 짧고 읽기 쉽게 다듬어줘. 의미와 말투를 유지하고 타임코드가 있으면 보존해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key11": {
+            "type": "text",
+            "label": "설명 영상 대본",
+            "text": "다음 주제의 설명 영상 대본을 도입, 핵심 설명, 예시, 마무리 순서로 작성해줘.\n주제:\n대상 시청자:\n영상 길이:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key12": {
+            "type": "text",
+            "label": "수정 요구사항",
+            "text": "아래 아이디어를 개발자가 구현할 수 있는 요구사항으로 정리해줘. 현재 문제, 원하는 동작, 예외 상황, 완료 기준을 포함해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key13": {
+            "type": "text",
+            "label": "코드·설정 검토",
+            "text": "아래 코드 또는 설정을 검토해서 실제 오류 가능성이 있는 부분을 우선순위와 근거로 설명해줘. 필요한 수정은 최소 범위로 제안해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key14": {
+            "type": "text",
+            "label": "검증 방법",
+            "text": "현재 결과물이 요구사항을 충족하는지 확인할 검증 방법과 예상 결과를 작성해줘. 정상 사례와 경계 사례를 포함해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key15": {
+            "type": "text",
+            "label": "대화 인계",
+            "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 이전 단어",
+            "keys": [
+              "CTRL",
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 다음 단어",
+            "keys": [
+              "CTRL",
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "입력창 줄바꿈",
+            "keys": [
+              "SHIFT",
+              "ENTER"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "답변 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "답변 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "문서·입력 끝으로",
+            "keys": [
+              "CTRL",
+              "END"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "text",
+            "label": "초안 완성",
+            "text": "아래 초안을 목적과 독자에 맞는 완성된 글로 다듬어줘. 새 사실은 만들어 넣지 말아줘.\n목적·독자:\n초안:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key2": {
+            "type": "text",
+            "label": "문장 다듬기",
+            "text": "아래 글의 의미를 유지하면서 어색한 표현, 문장 연결, 맞춤법을 자연스럽게 다듬어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key3": {
+            "type": "text",
+            "label": "중복 줄이기",
+            "text": "아래 글에서 중복과 군더더기를 줄여줘. 중요한 조건, 수치, 근거는 남겨줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key4": {
+            "type": "text",
+            "label": "업무 보고서",
+            "text": "아래 내용을 배경, 진행 내용, 결과, 문제, 다음 행동 순서의 간결한 업무 보고서로 작성해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key5": {
+            "type": "text",
+            "label": "정중하게 수정",
+            "text": "아래 문장을 정중하지만 지나치게 딱딱하지 않은 업무 말투로 바꿔줘. 뜻을 추가하지 말아줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key6": {
+            "type": "text",
+            "label": "문서 구조",
+            "text": "아래 자료의 제목, 소제목, 문단 순서를 설계해줘. 읽는 사람이 이해하기 쉬운 순서로 묶어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key7": {
+            "type": "text",
+            "label": "모순·누락 검토",
+            "text": "아래 문서의 모순, 누락, 모호한 표현을 찾아줘. 위치와 문제 이유, 수정안을 함께 적어줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key8": {
+            "type": "text",
+            "label": "표로 정리",
+            "text": "아래 내용을 비교·검색하기 쉬운 표로 정리해줘. 원문에 없는 정보는 빈칸 또는 미확인으로 표시해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key9": {
+            "type": "text",
+            "label": "표를 설명문으로",
+            "text": "아래 표의 핵심 변화와 의미를 읽기 쉬운 설명문으로 작성해줘. 수치를 정확히 보존해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key10": {
+            "type": "text",
+            "label": "자막 다듬기",
+            "text": "아래 자막을 짧고 읽기 쉽게 다듬어줘. 의미와 말투를 유지하고 타임코드가 있으면 보존해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key11": {
+            "type": "text",
+            "label": "설명 영상 대본",
+            "text": "다음 주제의 설명 영상 대본을 도입, 핵심 설명, 예시, 마무리 순서로 작성해줘.\n주제:\n대상 시청자:\n영상 길이:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key12": {
+            "type": "text",
+            "label": "수정 요구사항",
+            "text": "아래 아이디어를 개발자가 구현할 수 있는 요구사항으로 정리해줘. 현재 문제, 원하는 동작, 예외 상황, 완료 기준을 포함해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key13": {
+            "type": "text",
+            "label": "코드·설정 검토",
+            "text": "아래 코드 또는 설정을 검토해서 실제 오류 가능성이 있는 부분을 우선순위와 근거로 설명해줘. 필요한 수정은 최소 범위로 제안해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key14": {
+            "type": "text",
+            "label": "검증 방법",
+            "text": "현재 결과물이 요구사항을 충족하는지 확인할 검증 방법과 예상 결과를 작성해줘. 정상 사례와 경계 사례를 포함해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key15": {
+            "type": "text",
+            "label": "대화 인계",
+            "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 이전 단어",
+            "keys": [
+              "CTRL",
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 다음 단어",
+            "keys": [
+              "CTRL",
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "입력창 줄바꿈",
+            "keys": [
+              "SHIFT",
+              "ENTER"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "답변 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "답변 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "문서·입력 끝으로",
+            "keys": [
+              "CTRL",
+              "END"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "hermes",
+      "presetId": "monodeck.work.hermes.v1",
+      "name": "Hermes · 작업 관리",
+      "description": "15개 요청문 · 입력창을 먼저 클릭하세요. 자동 전송하지 않습니다. 작은 노브: 단어 단위 커서 이동 / 클릭 줄바꿈. 큰 노브: 포인터 아래 스크롤 / 클릭 끝으로. 그룹 1·2·3 동일. 자동 앱 전환은 꺼진 상태로 추가됩니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "text",
+          "label": "오늘 할 일",
+          "text": "내가 제공한 업무 내용을 기준으로 오늘 할 일과 우선순위를 정리해줘. 필요한 자료가 없으면 요청해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key2": {
+          "type": "text",
+          "label": "파일 목록",
+          "text": "지정한 폴더의 파일 목록을 종류와 날짜별로 정리해줘. 파일은 변경하지 말아줘.\n대상 폴더:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key3": {
+          "type": "text",
+          "label": "파일 요약",
+          "text": "내가 지정한 파일들을 읽고 각 파일의 핵심 내용과 공통 주제를 요약해줘.\n대상 파일:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key4": {
+          "type": "text",
+          "label": "분류안",
+          "text": "지정한 폴더의 파일을 분류할 기준과 이동안을 표로 제시해줘. 우선 실제 이동은 하지 말아줘.\n대상 폴더:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key5": {
+          "type": "text",
+          "label": "이름 변경안",
+          "text": "다음 규칙에 따른 파일 이름 변경안을 기존 이름 → 새 이름 표로 보여줘. 이름 충돌을 확인하고 아직 변경하지 말아줘.\n대상 폴더:\n이름 규칙:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key6": {
+          "type": "text",
+          "label": "중복 후보",
+          "text": "지정한 폴더의 중복 파일 후보를 찾아 근거와 함께 목록으로 정리해줘. 파일은 삭제하지 말아줘.\n대상 폴더:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key7": {
+          "type": "text",
+          "label": "작업 계획",
+          "text": "현재 목표를 달성하기 위한 작업 계획을 의존 순서대로 작성해줘. 각 단계의 입력, 결과물, 완료 기준을 적어줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key8": {
+          "type": "text",
+          "label": "진행 상황",
+          "text": "현재 작업에서 완료한 일, 진행 중인 일, 막힌 이유, 남은 일을 간결하게 보고해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key9": {
+          "type": "text",
+          "label": "로그 원인 분석",
+          "text": "아래 로그를 분석해 최초 원인과 후속 오류를 구분하고, 확인 및 수정 순서를 제안해줘.\n\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key10": {
+          "type": "text",
+          "label": "웹 조사",
+          "text": "아래 주제를 조사해서 핵심 결론, 비교표, 출처 링크, 확인 날짜를 정리해줘.\n조사 주제:\n중요한 기준:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key11": {
+          "type": "text",
+          "label": "변경 내역",
+          "text": "이번 작업에서 변경한 파일과 변경 이유, 검증 결과, 아직 확인하지 못한 내용을 정리해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key12": {
+          "type": "text",
+          "label": "자동화 설계",
+          "text": "다음 반복 업무를 자동화하는 방법을 설계해줘. 필요한 도구, 입력 데이터, 실패 시 처리와 수동 확인 지점을 설명해줘.\n반복 업무:\n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key13": {
+          "type": "text",
+          "label": "재시도 계획",
+          "text": "실패한 작업의 원인을 먼저 확인하고 재시도 계획을 세워줘. 이미 완료한 작업을 중복 실행하지 않도록 점검해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key14": {
+          "type": "text",
+          "label": "절차 재사용",
+          "text": "이번에 성공한 작업 절차를 다음에도 사용할 수 있는 지침으로 정리해줘. 사전 조건, 단계, 검증 방법, 자주 발생한 오류를 포함해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "key15": {
+          "type": "text",
+          "label": "대화 인계",
+          "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "입력 커서 · 이전 단어",
+          "keys": [
+            "CTRL",
+            "LEFT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "입력 커서 · 다음 단어",
+          "keys": [
+            "CTRL",
+            "RIGHT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "입력창 줄바꿈",
+          "keys": [
+            "SHIFT",
+            "ENTER"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "mouse",
+          "label": "답변 위로",
+          "mouseAction": "scroll",
+          "delta": 120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.cw": {
+          "type": "mouse",
+          "label": "답변 아래로",
+          "mouseAction": "scroll",
+          "delta": -120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "문서·입력 끝으로",
+          "keys": [
+            "CTRL",
+            "END"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "text",
+            "label": "오늘 할 일",
+            "text": "내가 제공한 업무 내용을 기준으로 오늘 할 일과 우선순위를 정리해줘. 필요한 자료가 없으면 요청해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key2": {
+            "type": "text",
+            "label": "파일 목록",
+            "text": "지정한 폴더의 파일 목록을 종류와 날짜별로 정리해줘. 파일은 변경하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key3": {
+            "type": "text",
+            "label": "파일 요약",
+            "text": "내가 지정한 파일들을 읽고 각 파일의 핵심 내용과 공통 주제를 요약해줘.\n대상 파일:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key4": {
+            "type": "text",
+            "label": "분류안",
+            "text": "지정한 폴더의 파일을 분류할 기준과 이동안을 표로 제시해줘. 우선 실제 이동은 하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key5": {
+            "type": "text",
+            "label": "이름 변경안",
+            "text": "다음 규칙에 따른 파일 이름 변경안을 기존 이름 → 새 이름 표로 보여줘. 이름 충돌을 확인하고 아직 변경하지 말아줘.\n대상 폴더:\n이름 규칙:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key6": {
+            "type": "text",
+            "label": "중복 후보",
+            "text": "지정한 폴더의 중복 파일 후보를 찾아 근거와 함께 목록으로 정리해줘. 파일은 삭제하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key7": {
+            "type": "text",
+            "label": "작업 계획",
+            "text": "현재 목표를 달성하기 위한 작업 계획을 의존 순서대로 작성해줘. 각 단계의 입력, 결과물, 완료 기준을 적어줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key8": {
+            "type": "text",
+            "label": "진행 상황",
+            "text": "현재 작업에서 완료한 일, 진행 중인 일, 막힌 이유, 남은 일을 간결하게 보고해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key9": {
+            "type": "text",
+            "label": "로그 원인 분석",
+            "text": "아래 로그를 분석해 최초 원인과 후속 오류를 구분하고, 확인 및 수정 순서를 제안해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key10": {
+            "type": "text",
+            "label": "웹 조사",
+            "text": "아래 주제를 조사해서 핵심 결론, 비교표, 출처 링크, 확인 날짜를 정리해줘.\n조사 주제:\n중요한 기준:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key11": {
+            "type": "text",
+            "label": "변경 내역",
+            "text": "이번 작업에서 변경한 파일과 변경 이유, 검증 결과, 아직 확인하지 못한 내용을 정리해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key12": {
+            "type": "text",
+            "label": "자동화 설계",
+            "text": "다음 반복 업무를 자동화하는 방법을 설계해줘. 필요한 도구, 입력 데이터, 실패 시 처리와 수동 확인 지점을 설명해줘.\n반복 업무:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key13": {
+            "type": "text",
+            "label": "재시도 계획",
+            "text": "실패한 작업의 원인을 먼저 확인하고 재시도 계획을 세워줘. 이미 완료한 작업을 중복 실행하지 않도록 점검해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key14": {
+            "type": "text",
+            "label": "절차 재사용",
+            "text": "이번에 성공한 작업 절차를 다음에도 사용할 수 있는 지침으로 정리해줘. 사전 조건, 단계, 검증 방법, 자주 발생한 오류를 포함해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key15": {
+            "type": "text",
+            "label": "대화 인계",
+            "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 이전 단어",
+            "keys": [
+              "CTRL",
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 다음 단어",
+            "keys": [
+              "CTRL",
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "입력창 줄바꿈",
+            "keys": [
+              "SHIFT",
+              "ENTER"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "답변 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "답변 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "문서·입력 끝으로",
+            "keys": [
+              "CTRL",
+              "END"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "text",
+            "label": "오늘 할 일",
+            "text": "내가 제공한 업무 내용을 기준으로 오늘 할 일과 우선순위를 정리해줘. 필요한 자료가 없으면 요청해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key2": {
+            "type": "text",
+            "label": "파일 목록",
+            "text": "지정한 폴더의 파일 목록을 종류와 날짜별로 정리해줘. 파일은 변경하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key3": {
+            "type": "text",
+            "label": "파일 요약",
+            "text": "내가 지정한 파일들을 읽고 각 파일의 핵심 내용과 공통 주제를 요약해줘.\n대상 파일:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key4": {
+            "type": "text",
+            "label": "분류안",
+            "text": "지정한 폴더의 파일을 분류할 기준과 이동안을 표로 제시해줘. 우선 실제 이동은 하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key5": {
+            "type": "text",
+            "label": "이름 변경안",
+            "text": "다음 규칙에 따른 파일 이름 변경안을 기존 이름 → 새 이름 표로 보여줘. 이름 충돌을 확인하고 아직 변경하지 말아줘.\n대상 폴더:\n이름 규칙:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key6": {
+            "type": "text",
+            "label": "중복 후보",
+            "text": "지정한 폴더의 중복 파일 후보를 찾아 근거와 함께 목록으로 정리해줘. 파일은 삭제하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key7": {
+            "type": "text",
+            "label": "작업 계획",
+            "text": "현재 목표를 달성하기 위한 작업 계획을 의존 순서대로 작성해줘. 각 단계의 입력, 결과물, 완료 기준을 적어줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key8": {
+            "type": "text",
+            "label": "진행 상황",
+            "text": "현재 작업에서 완료한 일, 진행 중인 일, 막힌 이유, 남은 일을 간결하게 보고해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key9": {
+            "type": "text",
+            "label": "로그 원인 분석",
+            "text": "아래 로그를 분석해 최초 원인과 후속 오류를 구분하고, 확인 및 수정 순서를 제안해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key10": {
+            "type": "text",
+            "label": "웹 조사",
+            "text": "아래 주제를 조사해서 핵심 결론, 비교표, 출처 링크, 확인 날짜를 정리해줘.\n조사 주제:\n중요한 기준:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key11": {
+            "type": "text",
+            "label": "변경 내역",
+            "text": "이번 작업에서 변경한 파일과 변경 이유, 검증 결과, 아직 확인하지 못한 내용을 정리해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key12": {
+            "type": "text",
+            "label": "자동화 설계",
+            "text": "다음 반복 업무를 자동화하는 방법을 설계해줘. 필요한 도구, 입력 데이터, 실패 시 처리와 수동 확인 지점을 설명해줘.\n반복 업무:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key13": {
+            "type": "text",
+            "label": "재시도 계획",
+            "text": "실패한 작업의 원인을 먼저 확인하고 재시도 계획을 세워줘. 이미 완료한 작업을 중복 실행하지 않도록 점검해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key14": {
+            "type": "text",
+            "label": "절차 재사용",
+            "text": "이번에 성공한 작업 절차를 다음에도 사용할 수 있는 지침으로 정리해줘. 사전 조건, 단계, 검증 방법, 자주 발생한 오류를 포함해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key15": {
+            "type": "text",
+            "label": "대화 인계",
+            "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 이전 단어",
+            "keys": [
+              "CTRL",
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 다음 단어",
+            "keys": [
+              "CTRL",
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "입력창 줄바꿈",
+            "keys": [
+              "SHIFT",
+              "ENTER"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "답변 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "답변 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "문서·입력 끝으로",
+            "keys": [
+              "CTRL",
+              "END"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "text",
+            "label": "오늘 할 일",
+            "text": "내가 제공한 업무 내용을 기준으로 오늘 할 일과 우선순위를 정리해줘. 필요한 자료가 없으면 요청해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key2": {
+            "type": "text",
+            "label": "파일 목록",
+            "text": "지정한 폴더의 파일 목록을 종류와 날짜별로 정리해줘. 파일은 변경하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key3": {
+            "type": "text",
+            "label": "파일 요약",
+            "text": "내가 지정한 파일들을 읽고 각 파일의 핵심 내용과 공통 주제를 요약해줘.\n대상 파일:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key4": {
+            "type": "text",
+            "label": "분류안",
+            "text": "지정한 폴더의 파일을 분류할 기준과 이동안을 표로 제시해줘. 우선 실제 이동은 하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key5": {
+            "type": "text",
+            "label": "이름 변경안",
+            "text": "다음 규칙에 따른 파일 이름 변경안을 기존 이름 → 새 이름 표로 보여줘. 이름 충돌을 확인하고 아직 변경하지 말아줘.\n대상 폴더:\n이름 규칙:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key6": {
+            "type": "text",
+            "label": "중복 후보",
+            "text": "지정한 폴더의 중복 파일 후보를 찾아 근거와 함께 목록으로 정리해줘. 파일은 삭제하지 말아줘.\n대상 폴더:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key7": {
+            "type": "text",
+            "label": "작업 계획",
+            "text": "현재 목표를 달성하기 위한 작업 계획을 의존 순서대로 작성해줘. 각 단계의 입력, 결과물, 완료 기준을 적어줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key8": {
+            "type": "text",
+            "label": "진행 상황",
+            "text": "현재 작업에서 완료한 일, 진행 중인 일, 막힌 이유, 남은 일을 간결하게 보고해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key9": {
+            "type": "text",
+            "label": "로그 원인 분석",
+            "text": "아래 로그를 분석해 최초 원인과 후속 오류를 구분하고, 확인 및 수정 순서를 제안해줘.\n\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key10": {
+            "type": "text",
+            "label": "웹 조사",
+            "text": "아래 주제를 조사해서 핵심 결론, 비교표, 출처 링크, 확인 날짜를 정리해줘.\n조사 주제:\n중요한 기준:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key11": {
+            "type": "text",
+            "label": "변경 내역",
+            "text": "이번 작업에서 변경한 파일과 변경 이유, 검증 결과, 아직 확인하지 못한 내용을 정리해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key12": {
+            "type": "text",
+            "label": "자동화 설계",
+            "text": "다음 반복 업무를 자동화하는 방법을 설계해줘. 필요한 도구, 입력 데이터, 실패 시 처리와 수동 확인 지점을 설명해줘.\n반복 업무:\n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key13": {
+            "type": "text",
+            "label": "재시도 계획",
+            "text": "실패한 작업의 원인을 먼저 확인하고 재시도 계획을 세워줘. 이미 완료한 작업을 중복 실행하지 않도록 점검해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key14": {
+            "type": "text",
+            "label": "절차 재사용",
+            "text": "이번에 성공한 작업 절차를 다음에도 사용할 수 있는 지침으로 정리해줘. 사전 조건, 단계, 검증 방법, 자주 발생한 오류를 포함해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "key15": {
+            "type": "text",
+            "label": "대화 인계",
+            "text": "이 작업을 다른 대화에서 이어갈 수 있도록 목표, 확정 사항, 완료한 작업, 관련 파일·경로, 남은 문제, 바로 할 다음 행동을 정리해줘. 사실과 아직 확인하지 못한 내용을 구분해줘.",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 이전 단어",
+            "keys": [
+              "CTRL",
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "입력 커서 · 다음 단어",
+            "keys": [
+              "CTRL",
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "입력창 줄바꿈",
+            "keys": [
+              "SHIFT",
+              "ENTER"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "답변 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "답변 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "문서·입력 끝으로",
+            "keys": [
+              "CTRL",
+              "END"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "whale",
+      "presetId": "monodeck.work.whale.v1",
+      "name": "웨일 · 탐색·수집",
+      "description": "웨일 창을 앞에 두고 사용하세요. 작은 노브: 탭 이동 / 클릭 닫은 탭 복원. 큰 노브: 스크롤 / 클릭 페이지 맨 위. 14번은 네이버 시작 페이지이며 원하는 업무 URL로 편집할 수 있습니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "shortcut",
+          "label": "새 탭",
+          "keys": [
+            "CTRL",
+            "T"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key2": {
+          "type": "shortcut",
+          "label": "닫은 탭 복원",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "T"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key3": {
+          "type": "shortcut",
+          "label": "탭 닫기",
+          "keys": [
+            "CTRL",
+            "W"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key4": {
+          "type": "shortcut",
+          "label": "이전 탭",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key5": {
+          "type": "shortcut",
+          "label": "다음 탭",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key6": {
+          "type": "sequence",
+          "label": "주소 복사",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "주소 선택",
+              "keys": [
+                "CTRL",
+                "L"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "주소 복사",
+              "keys": [
+                "CTRL",
+                "C"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "페이지로",
+              "keys": [
+                "ESC"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key7": {
+          "type": "sequence",
+          "label": "선택 문구 검색",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "선택 문구 복사",
+              "keys": [
+                "CTRL",
+                "C"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "80ms 대기",
+              "delayMs": 80
+            },
+            {
+              "type": "shortcut",
+              "label": "새 탭",
+              "keys": [
+                "CTRL",
+                "T"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "200ms 대기",
+              "delayMs": 200
+            },
+            {
+              "type": "shortcut",
+              "label": "검색 입력",
+              "keys": [
+                "CTRL",
+                "K"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "붙여넣기",
+              "keys": [
+                "CTRL",
+                "V"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "shortcut",
+              "label": "검색",
+              "keys": [
+                "ENTER"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key8": {
+          "type": "shortcut",
+          "label": "페이지 찾기",
+          "keys": [
+            "CTRL",
+            "F"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key9": {
+          "type": "shortcut",
+          "label": "북마크",
+          "keys": [
+            "CTRL",
+            "D"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key10": {
+          "type": "shortcut",
+          "label": "전체 캡처",
+          "keys": [
+            "ALT",
+            "3"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key11": {
+          "type": "shortcut",
+          "label": "영역 캡처",
+          "keys": [
+            "ALT",
+            "1"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key12": {
+          "type": "shortcut",
+          "label": "다운로드",
+          "keys": [
+            "CTRL",
+            "J"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key13": {
+          "type": "shortcut",
+          "label": "방문 기록",
+          "keys": [
+            "CTRL",
+            "H"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key14": {
+          "type": "sequence",
+          "label": "업무 시작 · 네이버",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "새 탭",
+              "keys": [
+                "CTRL",
+                "T"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "200ms 대기",
+              "delayMs": 200
+            },
+            {
+              "type": "text",
+              "label": "주소",
+              "text": "https://www.naver.com",
+              "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+              "icon": "FileText",
+              "color": "#9bd9cf"
+            },
+            {
+              "type": "shortcut",
+              "label": "열기",
+              "keys": [
+                "ENTER"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key15": {
+          "type": "text",
+          "label": "자료 메모 양식",
+          "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+          "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+          "icon": "FileText",
+          "color": "#9bd9cf"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "이전 탭",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "다음 탭",
+          "keys": [
+            "CTRL",
+            "TAB"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "닫은 탭 복원",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "T"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "mouse",
+          "label": "페이지 위로",
+          "mouseAction": "scroll",
+          "delta": 120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.cw": {
+          "type": "mouse",
+          "label": "페이지 아래로",
+          "mouseAction": "scroll",
+          "delta": -120,
+          "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+          "icon": "MousePointer2",
+          "color": "#88b8ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "페이지 맨 위",
+          "keys": [
+            "CTRL",
+            "HOME"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 탭",
+            "keys": [
+              "CTRL",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "탭 닫기",
+            "keys": [
+              "CTRL",
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "sequence",
+            "label": "주소 복사",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "주소 선택",
+                "keys": [
+                  "CTRL",
+                  "L"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "주소 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "페이지로",
+                "keys": [
+                  "ESC"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key7": {
+            "type": "sequence",
+            "label": "선택 문구 검색",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "선택 문구 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "shortcut",
+                "label": "검색 입력",
+                "keys": [
+                  "CTRL",
+                  "K"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "붙여넣기",
+                "keys": [
+                  "CTRL",
+                  "V"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "검색",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "페이지 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "북마크",
+            "keys": [
+              "CTRL",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "전체 캡처",
+            "keys": [
+              "ALT",
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "영역 캡처",
+            "keys": [
+              "ALT",
+              "1"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "다운로드",
+            "keys": [
+              "CTRL",
+              "J"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "방문 기록",
+            "keys": [
+              "CTRL",
+              "H"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "sequence",
+            "label": "업무 시작 · 네이버",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "text",
+                "label": "주소",
+                "text": "https://www.naver.com",
+                "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+                "icon": "FileText",
+                "color": "#9bd9cf"
+              },
+              {
+                "type": "shortcut",
+                "label": "열기",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key15": {
+            "type": "text",
+            "label": "자료 메모 양식",
+            "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "페이지 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "페이지 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "페이지 맨 위",
+            "keys": [
+              "CTRL",
+              "HOME"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 탭",
+            "keys": [
+              "CTRL",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "탭 닫기",
+            "keys": [
+              "CTRL",
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "sequence",
+            "label": "주소 복사",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "주소 선택",
+                "keys": [
+                  "CTRL",
+                  "L"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "주소 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "페이지로",
+                "keys": [
+                  "ESC"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key7": {
+            "type": "sequence",
+            "label": "선택 문구 검색",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "선택 문구 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "shortcut",
+                "label": "검색 입력",
+                "keys": [
+                  "CTRL",
+                  "K"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "붙여넣기",
+                "keys": [
+                  "CTRL",
+                  "V"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "검색",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "페이지 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "북마크",
+            "keys": [
+              "CTRL",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "전체 캡처",
+            "keys": [
+              "ALT",
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "영역 캡처",
+            "keys": [
+              "ALT",
+              "1"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "다운로드",
+            "keys": [
+              "CTRL",
+              "J"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "방문 기록",
+            "keys": [
+              "CTRL",
+              "H"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "sequence",
+            "label": "업무 시작 · 네이버",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "text",
+                "label": "주소",
+                "text": "https://www.naver.com",
+                "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+                "icon": "FileText",
+                "color": "#9bd9cf"
+              },
+              {
+                "type": "shortcut",
+                "label": "열기",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key15": {
+            "type": "text",
+            "label": "자료 메모 양식",
+            "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "페이지 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "페이지 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "페이지 맨 위",
+            "keys": [
+              "CTRL",
+              "HOME"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "shortcut",
+            "label": "새 탭",
+            "keys": [
+              "CTRL",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key2": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "탭 닫기",
+            "keys": [
+              "CTRL",
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "sequence",
+            "label": "주소 복사",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "주소 선택",
+                "keys": [
+                  "CTRL",
+                  "L"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "주소 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "페이지로",
+                "keys": [
+                  "ESC"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key7": {
+            "type": "sequence",
+            "label": "선택 문구 검색",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "선택 문구 복사",
+                "keys": [
+                  "CTRL",
+                  "C"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "shortcut",
+                "label": "검색 입력",
+                "keys": [
+                  "CTRL",
+                  "K"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "붙여넣기",
+                "keys": [
+                  "CTRL",
+                  "V"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "shortcut",
+                "label": "검색",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "페이지 찾기",
+            "keys": [
+              "CTRL",
+              "F"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "북마크",
+            "keys": [
+              "CTRL",
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "전체 캡처",
+            "keys": [
+              "ALT",
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "영역 캡처",
+            "keys": [
+              "ALT",
+              "1"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "다운로드",
+            "keys": [
+              "CTRL",
+              "J"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "방문 기록",
+            "keys": [
+              "CTRL",
+              "H"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "sequence",
+            "label": "업무 시작 · 네이버",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "새 탭",
+                "keys": [
+                  "CTRL",
+                  "T"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "200ms 대기",
+                "delayMs": 200
+              },
+              {
+                "type": "text",
+                "label": "주소",
+                "text": "https://www.naver.com",
+                "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+                "icon": "FileText",
+                "color": "#9bd9cf"
+              },
+              {
+                "type": "shortcut",
+                "label": "열기",
+                "keys": [
+                  "ENTER"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key15": {
+            "type": "text",
+            "label": "자료 메모 양식",
+            "text": "제목: \n출처 URL: \n핵심 내용: \n활용할 점: \n다음 행동: \n",
+            "comment": "대상 앱의 입력창을 먼저 클릭하세요. 요청문만 입력하며 자동 전송하지 않습니다.",
+            "icon": "FileText",
+            "color": "#9bd9cf"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 탭",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 탭",
+            "keys": [
+              "CTRL",
+              "TAB"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "닫은 탭 복원",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "T"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "mouse",
+            "label": "페이지 위로",
+            "mouseAction": "scroll",
+            "delta": 120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.cw": {
+            "type": "mouse",
+            "label": "페이지 아래로",
+            "mouseAction": "scroll",
+            "delta": -120,
+            "comment": "마우스 포인터를 스크롤할 답변·페이지 영역에 두세요.",
+            "icon": "MousePointer2",
+            "color": "#88b8ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "페이지 맨 위",
+            "keys": [
+              "CTRL",
+              "HOME"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "lightroom5",
+      "presetId": "monodeck.work.lightroom5.v1",
+      "name": "Lightroom 5 · 선별·보정",
+      "description": "Lightroom 5.7 계열 기본 단축키. 1·2번은 표시 후 다음 사진으로 이동합니다. 텍스트 입력 중에는 사용하지 마세요. 작은 노브: 사진 이동 / 클릭 확대. 큰 노브: 선택한 현상 슬라이더 ± / 클릭 보정 전 보기. 노브로 조절할 슬라이더를 먼저 선택하세요.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "sequence",
+          "label": "채택 → 다음",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "채택",
+              "keys": [
+                "P"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "80ms 대기",
+              "delayMs": 80
+            },
+            {
+              "type": "shortcut",
+              "label": "다음 사진",
+              "keys": [
+                "RIGHT"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key2": {
+          "type": "sequence",
+          "label": "제외 → 다음",
+          "steps": [
+            {
+              "type": "shortcut",
+              "label": "제외",
+              "keys": [
+                "X"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            },
+            {
+              "type": "delay",
+              "label": "80ms 대기",
+              "delayMs": 80
+            },
+            {
+              "type": "shortcut",
+              "label": "다음 사진",
+              "keys": [
+                "RIGHT"
+              ],
+              "icon": "command",
+              "color": "#b7a1ff"
+            }
+          ],
+          "repeatCount": 1,
+          "icon": "zap",
+          "color": "#f1a684"
+        },
+        "key3": {
+          "type": "shortcut",
+          "label": "표시 해제",
+          "keys": [
+            "U"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key4": {
+          "type": "shortcut",
+          "label": "별점 3",
+          "keys": [
+            "3"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key5": {
+          "type": "shortcut",
+          "label": "별점 5",
+          "keys": [
+            "5"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key6": {
+          "type": "shortcut",
+          "label": "격자 보기",
+          "keys": [
+            "G"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key7": {
+          "type": "shortcut",
+          "label": "한 장 보기",
+          "keys": [
+            "E"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key8": {
+          "type": "shortcut",
+          "label": "현상 모듈",
+          "keys": [
+            "D"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key9": {
+          "type": "shortcut",
+          "label": "자르기",
+          "keys": [
+            "R"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key10": {
+          "type": "shortcut",
+          "label": "화이트밸런스",
+          "keys": [
+            "W"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key11": {
+          "type": "shortcut",
+          "label": "보정 복사",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "C"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key12": {
+          "type": "shortcut",
+          "label": "보정 붙여넣기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "V"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key13": {
+          "type": "shortcut",
+          "label": "보정 동기화",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "S"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key14": {
+          "type": "shortcut",
+          "label": "전·후 비교",
+          "keys": [
+            "Y"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "key15": {
+          "type": "shortcut",
+          "label": "내보내기",
+          "keys": [
+            "CTRL",
+            "SHIFT",
+            "E"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.ccw": {
+          "type": "shortcut",
+          "label": "이전 사진",
+          "keys": [
+            "LEFT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.cw": {
+          "type": "shortcut",
+          "label": "다음 사진",
+          "keys": [
+            "RIGHT"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob1.press": {
+          "type": "shortcut",
+          "label": "확대 전환",
+          "keys": [
+            "Z"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.ccw": {
+          "type": "shortcut",
+          "label": "선택 슬라이더 −",
+          "keys": [
+            "DOWN"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.cw": {
+          "type": "shortcut",
+          "label": "선택 슬라이더 +",
+          "keys": [
+            "UP"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        },
+        "knob3.press": {
+          "type": "shortcut",
+          "label": "보정 전 보기",
+          "keys": [
+            "\\"
+          ],
+          "icon": "command",
+          "color": "#b7a1ff"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "sequence",
+            "label": "채택 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "채택",
+                "keys": [
+                  "P"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key2": {
+            "type": "sequence",
+            "label": "제외 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "제외",
+                "keys": [
+                  "X"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "표시 해제",
+            "keys": [
+              "U"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "별점 3",
+            "keys": [
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "별점 5",
+            "keys": [
+              "5"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "격자 보기",
+            "keys": [
+              "G"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "한 장 보기",
+            "keys": [
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "현상 모듈",
+            "keys": [
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "자르기",
+            "keys": [
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "화이트밸런스",
+            "keys": [
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "보정 복사",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "C"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "보정 붙여넣기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "V"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "보정 동기화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "전·후 비교",
+            "keys": [
+              "Y"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "내보내기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 사진",
+            "keys": [
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 사진",
+            "keys": [
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "확대 전환",
+            "keys": [
+              "Z"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 −",
+            "keys": [
+              "DOWN"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.cw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 +",
+            "keys": [
+              "UP"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "보정 전 보기",
+            "keys": [
+              "\\"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "sequence",
+            "label": "채택 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "채택",
+                "keys": [
+                  "P"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key2": {
+            "type": "sequence",
+            "label": "제외 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "제외",
+                "keys": [
+                  "X"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "표시 해제",
+            "keys": [
+              "U"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "별점 3",
+            "keys": [
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "별점 5",
+            "keys": [
+              "5"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "격자 보기",
+            "keys": [
+              "G"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "한 장 보기",
+            "keys": [
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "현상 모듈",
+            "keys": [
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "자르기",
+            "keys": [
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "화이트밸런스",
+            "keys": [
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "보정 복사",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "C"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "보정 붙여넣기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "V"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "보정 동기화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "전·후 비교",
+            "keys": [
+              "Y"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "내보내기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 사진",
+            "keys": [
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 사진",
+            "keys": [
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "확대 전환",
+            "keys": [
+              "Z"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 −",
+            "keys": [
+              "DOWN"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.cw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 +",
+            "keys": [
+              "UP"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "보정 전 보기",
+            "keys": [
+              "\\"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "sequence",
+            "label": "채택 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "채택",
+                "keys": [
+                  "P"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key2": {
+            "type": "sequence",
+            "label": "제외 → 다음",
+            "steps": [
+              {
+                "type": "shortcut",
+                "label": "제외",
+                "keys": [
+                  "X"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              },
+              {
+                "type": "delay",
+                "label": "80ms 대기",
+                "delayMs": 80
+              },
+              {
+                "type": "shortcut",
+                "label": "다음 사진",
+                "keys": [
+                  "RIGHT"
+                ],
+                "icon": "command",
+                "color": "#b7a1ff"
+              }
+            ],
+            "repeatCount": 1,
+            "icon": "zap",
+            "color": "#f1a684"
+          },
+          "key3": {
+            "type": "shortcut",
+            "label": "표시 해제",
+            "keys": [
+              "U"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key4": {
+            "type": "shortcut",
+            "label": "별점 3",
+            "keys": [
+              "3"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key5": {
+            "type": "shortcut",
+            "label": "별점 5",
+            "keys": [
+              "5"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key6": {
+            "type": "shortcut",
+            "label": "격자 보기",
+            "keys": [
+              "G"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key7": {
+            "type": "shortcut",
+            "label": "한 장 보기",
+            "keys": [
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key8": {
+            "type": "shortcut",
+            "label": "현상 모듈",
+            "keys": [
+              "D"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key9": {
+            "type": "shortcut",
+            "label": "자르기",
+            "keys": [
+              "R"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key10": {
+            "type": "shortcut",
+            "label": "화이트밸런스",
+            "keys": [
+              "W"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key11": {
+            "type": "shortcut",
+            "label": "보정 복사",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "C"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key12": {
+            "type": "shortcut",
+            "label": "보정 붙여넣기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "V"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key13": {
+            "type": "shortcut",
+            "label": "보정 동기화",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "S"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key14": {
+            "type": "shortcut",
+            "label": "전·후 비교",
+            "keys": [
+              "Y"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "key15": {
+            "type": "shortcut",
+            "label": "내보내기",
+            "keys": [
+              "CTRL",
+              "SHIFT",
+              "E"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.ccw": {
+            "type": "shortcut",
+            "label": "이전 사진",
+            "keys": [
+              "LEFT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.cw": {
+            "type": "shortcut",
+            "label": "다음 사진",
+            "keys": [
+              "RIGHT"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob1.press": {
+            "type": "shortcut",
+            "label": "확대 전환",
+            "keys": [
+              "Z"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.ccw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 −",
+            "keys": [
+              "DOWN"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.cw": {
+            "type": "shortcut",
+            "label": "선택 슬라이더 +",
+            "keys": [
+              "UP"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          },
+          "knob3.press": {
+            "type": "shortcut",
+            "label": "보정 전 보기",
+            "keys": [
+              "\\"
+            ],
+            "icon": "command",
+            "color": "#b7a1ff"
+          }
+        }
+      }
+    },
+    {
+      "id": "obs",
+      "presetId": "monodeck.work.obs.v1",
+      "name": "OBS · 장면·오디오",
+      "description": "OBS WebSocket 5 연결 필요. 작은 노브: 장면 후보 선택 / 클릭 송출 장면 확정. 큰 노브: 지정 캡처 소스 ±1dB / 클릭 음소거. 프리셋 라이브러리 → OBS 연결에서 오디오 대상을 선택하세요. 1~5번은 OBS 장면 목록 순서이며 실제 이름은 연결 화면에 표시합니다. 방송 시작·종료는 포함하지 않습니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "obs",
+          "label": "장면 1",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 0,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key2": {
+          "type": "obs",
+          "label": "장면 2",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 1,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key3": {
+          "type": "obs",
+          "label": "장면 3",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 2,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key4": {
+          "type": "obs",
+          "label": "장면 4",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 3,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key5": {
+          "type": "obs",
+          "label": "장면 5",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 4,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key6": {
+          "type": "obs",
+          "label": "녹화 시작",
+          "obsOperation": "startRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key7": {
+          "type": "obs",
+          "label": "녹화 일시정지",
+          "obsOperation": "pauseRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key8": {
+          "type": "obs",
+          "label": "녹화 재개",
+          "obsOperation": "resumeRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key9": {
+          "type": "obs",
+          "label": "녹화 종료",
+          "obsOperation": "stopRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key10": {
+          "type": "obs",
+          "label": "리플레이 저장",
+          "obsOperation": "saveReplay",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key11": {
+          "type": "obs",
+          "label": "마이크 음소거",
+          "obsOperation": "mute",
+          "inputRole": "microphone",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key12": {
+          "type": "obs",
+          "label": "마이크 켜기",
+          "obsOperation": "unmute",
+          "inputRole": "microphone",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key13": {
+          "type": "obs",
+          "label": "캡처 음소거",
+          "obsOperation": "mute",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key14": {
+          "type": "obs",
+          "label": "캡처 소리 켜기",
+          "obsOperation": "unmute",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key15": {
+          "type": "obs",
+          "label": "스튜디오 모드",
+          "obsOperation": "studioToggle",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.ccw": {
+          "type": "obs",
+          "label": "이전 장면 후보",
+          "obsOperation": "scenePrevious",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.cw": {
+          "type": "obs",
+          "label": "다음 장면 후보",
+          "obsOperation": "sceneNext",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.press": {
+          "type": "obs",
+          "label": "장면 선택 확정",
+          "obsOperation": "sceneConfirm",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.ccw": {
+          "type": "obs",
+          "label": "캡처 볼륨 −1dB",
+          "obsOperation": "volumeDown",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.cw": {
+          "type": "obs",
+          "label": "캡처 볼륨 +1dB",
+          "obsOperation": "volumeUp",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.press": {
+          "type": "obs",
+          "label": "캡처 음소거 전환",
+          "obsOperation": "toggleMute",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "obs",
+            "label": "장면 1",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "장면 2",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "장면 3",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "장면 4",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "장면 5",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "녹화 시작",
+            "obsOperation": "startRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "녹화 일시정지",
+            "obsOperation": "pauseRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "녹화 재개",
+            "obsOperation": "resumeRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "녹화 종료",
+            "obsOperation": "stopRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "리플레이 저장",
+            "obsOperation": "saveReplay",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "마이크 음소거",
+            "obsOperation": "mute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "마이크 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "캡처 음소거",
+            "obsOperation": "mute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "캡처 소리 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "스튜디오 모드",
+            "obsOperation": "studioToggle",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 장면 후보",
+            "obsOperation": "scenePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 장면 후보",
+            "obsOperation": "sceneNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "장면 선택 확정",
+            "obsOperation": "sceneConfirm",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "캡처 볼륨 −1dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "캡처 볼륨 +1dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "캡처 음소거 전환",
+            "obsOperation": "toggleMute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "obs",
+            "label": "장면 1",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "장면 2",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "장면 3",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "장면 4",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "장면 5",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "녹화 시작",
+            "obsOperation": "startRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "녹화 일시정지",
+            "obsOperation": "pauseRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "녹화 재개",
+            "obsOperation": "resumeRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "녹화 종료",
+            "obsOperation": "stopRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "리플레이 저장",
+            "obsOperation": "saveReplay",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "마이크 음소거",
+            "obsOperation": "mute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "마이크 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "캡처 음소거",
+            "obsOperation": "mute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "캡처 소리 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "스튜디오 모드",
+            "obsOperation": "studioToggle",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 장면 후보",
+            "obsOperation": "scenePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 장면 후보",
+            "obsOperation": "sceneNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "장면 선택 확정",
+            "obsOperation": "sceneConfirm",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "캡처 볼륨 −1dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "캡처 볼륨 +1dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "캡처 음소거 전환",
+            "obsOperation": "toggleMute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "obs",
+            "label": "장면 1",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "장면 2",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "장면 3",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "장면 4",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "장면 5",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "녹화 시작",
+            "obsOperation": "startRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "녹화 일시정지",
+            "obsOperation": "pauseRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "녹화 재개",
+            "obsOperation": "resumeRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "녹화 종료",
+            "obsOperation": "stopRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "리플레이 저장",
+            "obsOperation": "saveReplay",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "마이크 음소거",
+            "obsOperation": "mute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "마이크 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "캡처 음소거",
+            "obsOperation": "mute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "캡처 소리 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "스튜디오 모드",
+            "obsOperation": "studioToggle",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 장면 후보",
+            "obsOperation": "scenePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 장면 후보",
+            "obsOperation": "sceneNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "장면 선택 확정",
+            "obsOperation": "sceneConfirm",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "캡처 볼륨 −1dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "캡처 볼륨 +1dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "캡처 음소거 전환",
+            "obsOperation": "toggleMute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        }
+      }
+    }
+  ]
+}

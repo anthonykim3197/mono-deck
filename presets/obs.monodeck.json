@@ -1,0 +1,666 @@
+{
+  "format": "mono-deck-preset-pack",
+  "version": 1,
+  "name": "OBS · 장면·오디오",
+  "description": "OBS WebSocket 5 연결 필요. 작은 노브: 장면 후보 선택 / 클릭 송출 장면 확정. 큰 노브: 지정 캡처 소스 ±1dB / 클릭 음소거. 프리셋 라이브러리 → OBS 연결에서 오디오 대상을 선택하세요. 1~5번은 OBS 장면 목록 순서이며 실제 이름은 연결 화면에 표시합니다. 방송 시작·종료는 포함하지 않습니다.",
+  "knobOrder": [
+    1,
+    2,
+    3
+  ],
+  "profiles": [
+    {
+      "id": "obs",
+      "presetId": "monodeck.work.obs.v1",
+      "name": "OBS · 장면·오디오",
+      "description": "OBS WebSocket 5 연결 필요. 작은 노브: 장면 후보 선택 / 클릭 송출 장면 확정. 큰 노브: 지정 캡처 소스 ±1dB / 클릭 음소거. 프리셋 라이브러리 → OBS 연결에서 오디오 대상을 선택하세요. 1~5번은 OBS 장면 목록 순서이며 실제 이름은 연결 화면에 표시합니다. 방송 시작·종료는 포함하지 않습니다.",
+      "matchProcess": "",
+      "bindings": {
+        "key1": {
+          "type": "obs",
+          "label": "장면 1",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 0,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key2": {
+          "type": "obs",
+          "label": "장면 2",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 1,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key3": {
+          "type": "obs",
+          "label": "장면 3",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 2,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key4": {
+          "type": "obs",
+          "label": "장면 4",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 3,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key5": {
+          "type": "obs",
+          "label": "장면 5",
+          "obsOperation": "sceneSelect",
+          "sceneIndex": 4,
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key6": {
+          "type": "obs",
+          "label": "녹화 시작",
+          "obsOperation": "startRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key7": {
+          "type": "obs",
+          "label": "녹화 일시정지",
+          "obsOperation": "pauseRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key8": {
+          "type": "obs",
+          "label": "녹화 재개",
+          "obsOperation": "resumeRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key9": {
+          "type": "obs",
+          "label": "녹화 종료",
+          "obsOperation": "stopRecord",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key10": {
+          "type": "obs",
+          "label": "리플레이 저장",
+          "obsOperation": "saveReplay",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key11": {
+          "type": "obs",
+          "label": "마이크 음소거",
+          "obsOperation": "mute",
+          "inputRole": "microphone",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key12": {
+          "type": "obs",
+          "label": "마이크 켜기",
+          "obsOperation": "unmute",
+          "inputRole": "microphone",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key13": {
+          "type": "obs",
+          "label": "캡처 음소거",
+          "obsOperation": "mute",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key14": {
+          "type": "obs",
+          "label": "캡처 소리 켜기",
+          "obsOperation": "unmute",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "key15": {
+          "type": "obs",
+          "label": "스튜디오 모드",
+          "obsOperation": "studioToggle",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.ccw": {
+          "type": "obs",
+          "label": "이전 장면 후보",
+          "obsOperation": "scenePrevious",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.cw": {
+          "type": "obs",
+          "label": "다음 장면 후보",
+          "obsOperation": "sceneNext",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob1.press": {
+          "type": "obs",
+          "label": "장면 선택 확정",
+          "obsOperation": "sceneConfirm",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.ccw": {
+          "type": "obs",
+          "label": "캡처 볼륨 −1dB",
+          "obsOperation": "volumeDown",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.cw": {
+          "type": "obs",
+          "label": "캡처 볼륨 +1dB",
+          "obsOperation": "volumeUp",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        },
+        "knob3.press": {
+          "type": "obs",
+          "label": "캡처 음소거 전환",
+          "obsOperation": "toggleMute",
+          "inputRole": "volume",
+          "icon": "Radio",
+          "color": "#ef9fbc"
+        }
+      },
+      "layers": {
+        "1": {
+          "key1": {
+            "type": "obs",
+            "label": "장면 1",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "장면 2",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "장면 3",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "장면 4",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "장면 5",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "녹화 시작",
+            "obsOperation": "startRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "녹화 일시정지",
+            "obsOperation": "pauseRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "녹화 재개",
+            "obsOperation": "resumeRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "녹화 종료",
+            "obsOperation": "stopRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "리플레이 저장",
+            "obsOperation": "saveReplay",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "마이크 음소거",
+            "obsOperation": "mute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "마이크 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "캡처 음소거",
+            "obsOperation": "mute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "캡처 소리 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "스튜디오 모드",
+            "obsOperation": "studioToggle",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 장면 후보",
+            "obsOperation": "scenePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 장면 후보",
+            "obsOperation": "sceneNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "장면 선택 확정",
+            "obsOperation": "sceneConfirm",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "캡처 볼륨 −1dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "캡처 볼륨 +1dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "캡처 음소거 전환",
+            "obsOperation": "toggleMute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        },
+        "2": {
+          "key1": {
+            "type": "obs",
+            "label": "장면 1",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "장면 2",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "장면 3",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "장면 4",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "장면 5",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "녹화 시작",
+            "obsOperation": "startRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "녹화 일시정지",
+            "obsOperation": "pauseRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "녹화 재개",
+            "obsOperation": "resumeRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "녹화 종료",
+            "obsOperation": "stopRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "리플레이 저장",
+            "obsOperation": "saveReplay",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "마이크 음소거",
+            "obsOperation": "mute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "마이크 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "캡처 음소거",
+            "obsOperation": "mute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "캡처 소리 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "스튜디오 모드",
+            "obsOperation": "studioToggle",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 장면 후보",
+            "obsOperation": "scenePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 장면 후보",
+            "obsOperation": "sceneNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "장면 선택 확정",
+            "obsOperation": "sceneConfirm",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "캡처 볼륨 −1dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "캡처 볼륨 +1dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "캡처 음소거 전환",
+            "obsOperation": "toggleMute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        },
+        "3": {
+          "key1": {
+            "type": "obs",
+            "label": "장면 1",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 0,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key2": {
+            "type": "obs",
+            "label": "장면 2",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 1,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key3": {
+            "type": "obs",
+            "label": "장면 3",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 2,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key4": {
+            "type": "obs",
+            "label": "장면 4",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 3,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key5": {
+            "type": "obs",
+            "label": "장면 5",
+            "obsOperation": "sceneSelect",
+            "sceneIndex": 4,
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key6": {
+            "type": "obs",
+            "label": "녹화 시작",
+            "obsOperation": "startRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key7": {
+            "type": "obs",
+            "label": "녹화 일시정지",
+            "obsOperation": "pauseRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key8": {
+            "type": "obs",
+            "label": "녹화 재개",
+            "obsOperation": "resumeRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key9": {
+            "type": "obs",
+            "label": "녹화 종료",
+            "obsOperation": "stopRecord",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key10": {
+            "type": "obs",
+            "label": "리플레이 저장",
+            "obsOperation": "saveReplay",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key11": {
+            "type": "obs",
+            "label": "마이크 음소거",
+            "obsOperation": "mute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key12": {
+            "type": "obs",
+            "label": "마이크 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "microphone",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key13": {
+            "type": "obs",
+            "label": "캡처 음소거",
+            "obsOperation": "mute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key14": {
+            "type": "obs",
+            "label": "캡처 소리 켜기",
+            "obsOperation": "unmute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "key15": {
+            "type": "obs",
+            "label": "스튜디오 모드",
+            "obsOperation": "studioToggle",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.ccw": {
+            "type": "obs",
+            "label": "이전 장면 후보",
+            "obsOperation": "scenePrevious",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.cw": {
+            "type": "obs",
+            "label": "다음 장면 후보",
+            "obsOperation": "sceneNext",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob1.press": {
+            "type": "obs",
+            "label": "장면 선택 확정",
+            "obsOperation": "sceneConfirm",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.ccw": {
+            "type": "obs",
+            "label": "캡처 볼륨 −1dB",
+            "obsOperation": "volumeDown",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.cw": {
+            "type": "obs",
+            "label": "캡처 볼륨 +1dB",
+            "obsOperation": "volumeUp",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          },
+          "knob3.press": {
+            "type": "obs",
+            "label": "캡처 음소거 전환",
+            "obsOperation": "toggleMute",
+            "inputRole": "volume",
+            "icon": "Radio",
+            "color": "#ef9fbc"
+          }
+        }
+      }
+    }
+  ]
+}
